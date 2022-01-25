@@ -83,8 +83,13 @@ li{
     position: absolute;
     top: 0;
     right: 0;
-    padding: 0;
     height: 20px;
+    padding: 0px;
+}
+
+button{
+    background-color: rgb(122, 153, 240);
+    padding: 1em;
 }
 
 
