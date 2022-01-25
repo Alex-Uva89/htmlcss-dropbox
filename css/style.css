@@ -17,12 +17,15 @@
 }
 
 nav{
+    background-color: white;
+    width: 1280px;
     height: 50px;
     position: fixed;
     top: 0;
     left: 0;
     right:0;
     overflow: hidden;
+
 }
 
 .fl{
@@ -35,8 +38,12 @@ nav{
 
 nav ul{
     list-style: none;
-    margin: 0 30px;
+    /*margin: 0 30px;*/
     line-height: 2em;
+}
+
+nav a{
+    padding: 50px 0;
 }
 
 a{
@@ -63,13 +70,21 @@ li{
     position: fixed;
     top: 0;
     right: 0;
-    width: 100px;
+}
+
+
+.container_list2{
+    position: relative;
+    top:0;
+    right:50px;
 }
 
 .start{
     position: absolute;
     top: 0;
     right: 0;
+    padding: 0;
+    height: 20px;
 }
 
 
@@ -77,5 +92,6 @@ li{
     width: 2000px;
     height: 1000px;
     background-color: yellow;
-    margin-top: 200px;
+    margin-top: 60px;
 }
+
