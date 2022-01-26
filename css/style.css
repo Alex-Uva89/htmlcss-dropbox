@@ -9,6 +9,8 @@
 
 html{
     font-family: sans-serif;
+    font-size: 14px;
+    scroll-behavior: smooth;
 }
 
 .clerfix::after {
@@ -83,7 +85,16 @@ li{
     margin-bottom: 65px;
 }
 
-.mt
+.pt50{
+    padding-top: 50px;
+}
+
+.button_white{
+    border: 1px solid rgb(0,0,0);
+    padding: .5em;
+    margin: 10px auto;
+}
+ 
 
 /*CLASSI SPECIFICHE*/
 
@@ -113,6 +124,7 @@ button a{
 }
 
 button:hover{
+    border: 2px solid rgba(0,0,0,0.5);
     box-shadow: 1px 1px 3px;
 }
 
@@ -124,8 +136,6 @@ button{
     vertical-align: middle;
     margin-bottom: 10px;
 }
-
-
 
 .hd{
     max-width: 1000px ;
@@ -146,7 +156,7 @@ h1{
     float: left;
 }
 
-..box30{
+.box70{
     width: 70%;
     float: left;
 }
@@ -181,7 +191,6 @@ p{
 #section2{
     max-width: 1000px;
     height: 100vh;
-    background-color: yellow;
     margin: 0 auto;
 }
 
@@ -309,12 +318,31 @@ ul li i{
     float: left;
 }
 
-.l_card {
+.box60{
     width: 60%;
     margin: 30px 20px;
 }
 
-.l_card2 {
+.box30_m {
     width: 30%;
     margin: 30px 15px;
+}
+.pt50 a{
+    color: rgb(0,0,0);
+    font-size: 0.8em;
+}
+
+.pt50 a:hover{
+    color: rgba(0,0,0,0.8);
+    border: 2px solid rgb(0,0,0);
+    box-shadow: 1px 1px 5px rgb(0,0,0);
+}
+
+
+.contain{
+    width: 100%;
+}
+
+.white{
+    background-color: rgb(255,255,255);
 }
