@@ -211,3 +211,18 @@ p{
 .card:nth-child(3){
     margin: 0 10px;
 }
+
+.hd_card{
+    text-align: center;
+    border-bottom: 1px solid rgb(0,0,0);
+    padding: 5px
+}
+
+.hd_card h3{
+    display: inline;
+    font-size: 0.8em;
+}
+
+.hd_card img{
+    width: 5%;
+}
