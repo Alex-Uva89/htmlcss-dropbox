@@ -116,7 +116,7 @@ button{
 
 .hd{
     max-width: 1000px ;
-    height: 490px;
+    height: 480px;
     background-color: rgb(180,208,231);
     padding-top: 100px;
     padding-left: 90px;
@@ -160,6 +160,12 @@ p{
 
 #section2{
     max-width: 1000px;
-    height: 300px;
+    height: 100vh;
     background-color: yellow;
+}
+
+#section3{
+    max-width: 1000px;
+    height: 100vh;
+    background-color: blue;
 }
