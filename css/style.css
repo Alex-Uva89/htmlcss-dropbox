@@ -158,12 +158,13 @@ p{
     margin-top: 20px;
 }
 
-.arrow-down{
+.box-arrow a svg{
+    width: 50px;
+    fill: rgb(0,0,0);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50px;
 }
 
 #section2{
@@ -250,3 +251,11 @@ ul li i{
     float: left;
 }
 
+.box_btn{
+    max-width: 201px ;
+    margin: 0px auto;
+}
+
+.box_btn p a{
+    color: rgb(36, 134, 247);
+}
