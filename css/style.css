@@ -222,15 +222,31 @@ p{
     margin: 30px 20px;
 }
 
+.m_card ul{
+    margin-top: 50px;
+    font-size: 0.8em;
+}
+
 .hd_card span{
     font-size: 0.8em;
 }
 
-.hd_card img{
+/*.hd_card .fa-user,{
     width: 5%;
-}
+}*/
 
 h3,
 h4{
     padding-bottom: 10px;
 }
+
+ul li span{
+    width: 100px;
+    float: left;
+}
+
+ul li i{
+    width: 18px;
+    float: left;
+}
+
