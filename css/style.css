@@ -40,7 +40,7 @@ nav{
     left: 0;
     right:0;
     overflow: hidden;
-
+    border-bottom: 0.1px solid rgba(0,0,0,0.1);
 }
 
 .fl{
@@ -272,4 +272,18 @@ ul li i{
 .box_list_card{
     max-width: 200px;
     margin: 50px auto;
+}
+
+.fa-check{
+    width: 18px;
+    fill: rgb(36, 134, 247);
+    float: left;
+    margin-right: 10px;
+}
+
+
+.box_list_card ul li span{
+    max-width: 200px;
+    font-size: 0.7em;
+    float: left;
 }
