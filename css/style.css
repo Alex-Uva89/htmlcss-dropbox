@@ -65,7 +65,7 @@ nav a{
     color: rgb(0,0,0);
 }
 
- nav ul li a:hover{
+nav ul li a:hover{
     padding-bottom: 0.9em;
     border-bottom: 1px solid rgb(0,0,0);
 }
@@ -79,6 +79,11 @@ li{
     margin-bottom: 20px;
 }
 
+.mb65{
+    margin-bottom: 65px;
+}
+
+.mt
 
 /*CLASSI SPECIFICHE*/
 
@@ -102,7 +107,7 @@ button a:hover{
 
 
 button a{
-    color: cornsilk;
+    color: rgb(255,255,255);
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -130,13 +135,19 @@ button{
     padding-left: 90px;
     padding-right: 90px;
 }
+
 h1{
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-.box{
+.box30{
     width: 30%;
+    float: left;
+}
+
+..box30{
+    width: 70%;
     float: left;
 }
 
@@ -146,7 +157,7 @@ p{
     margin-bottom: 10px;
 }
 
-.img{
+.container_1 .img{
     width: 70%;
     float: left;
 }
@@ -209,6 +220,7 @@ p{
     float: left;
 }
 
+
 .card:nth-child(3){
     margin: 0 10px;
 }
@@ -227,6 +239,8 @@ p{
     margin-top: 50px;
     font-size: 0.8em;
 }
+
+
 
 .hd_card span{
     font-size: 0.8em;
@@ -267,6 +281,7 @@ ul li i{
 .box_btn span{
     padding-bottom: 20px;
     border-bottom: 1px solid rgb(0,0,0);
+    margin-right: 5px;
 }
 
 .box_list_card{
@@ -286,4 +301,20 @@ ul li i{
     max-width: 200px;
     font-size: 0.7em;
     float: left;
+}
+.last_card{
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid rgb(0,0,0);
+    float: left;
+}
+
+.l_card {
+    width: 60%;
+    margin: 30px 20px;
+}
+
+.l_card2 {
+    width: 30%;
+    margin: 30px 15px;
 }
