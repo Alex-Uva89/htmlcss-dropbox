@@ -23,6 +23,7 @@ body{
 
 .container_1{
     max-width: 100%;
+    margin-bottom: 100px;
 }
 
 nav{
@@ -87,7 +88,7 @@ li{
     margin-right: 5px;
 }
 
-.start a:hover{
+button a:hover{
     border: 0px;
 }
 
@@ -131,9 +132,6 @@ h1{
     float: left;
 }
 
-.box a{
-
-}
 
 p{
     font-size: .8em;
