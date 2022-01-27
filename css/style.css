@@ -28,13 +28,16 @@ html{
 .container_1,
 .container_2{
     max-width: 100%;
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
 }
 
-.container_1000{
-    max-width: 1000px;
+.container_80{
+    max-width: 80vw;
+    height: 14vw;
+    padding: 5vw;
     margin: 0 auto;
 }
+
 
 nav{
     background-color: white;
@@ -89,6 +92,7 @@ ul a{
     margin-bottom: 20px;
 }
 
+
 .mb65{
     margin-bottom: 65px;
 }
@@ -101,10 +105,21 @@ ul a{
     padding-top: 50px;
 }
 
+.pt150{
+    padding-top: 150px;
+}
+
+.pb100{
+    padding-bottom: 100px;
+}
+
 .button_white{
+    color: rgba(0,0,0,0.8);
+    background-color: rgb(255,255,255);
     border: 1px solid rgb(0,0,0);
     padding: .5em;
     margin: 10px auto;
+    
 }
  
 
@@ -162,6 +177,8 @@ button{
     background-color: rgb(180,208,231);
     padding-top: 50px;
 }
+
+
 
 h1{
     font-size: 2.5em;
@@ -528,4 +545,37 @@ ul li i{
 
 .box_scroolbar{
     height: 600px;
+}
+
+.sky .button_white:hover{
+    color: rgba(0,0,0,0.8);
+    border: 2px solid rgb(0,0,0);
+    box-shadow: 1px 1px 5px rgb(0,0,0);
+}
+
+.faq{
+    padding: 20px 0;
+    border-top: 1px solid rgb(0,0,0);
+}
+
+.risposte{
+    display: none;
+}
+
+.faq:hover .risposte{
+    display: block;
+}
+
+.faq a {
+    color: rgb(0,0,0);
+}
+
+.black{
+    background-color: rgba(0,0,0,0.8);
+    color: rgb(245,245,245);
+}
+
+footer ul{
+    list-style: none;
+    width: calc(100% / 5);
 }
