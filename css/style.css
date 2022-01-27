@@ -412,7 +412,7 @@ ul li i{
 }
 
 .hotred{
-    background-color: rgb(213,0,31);
+    background-color: rgb(97,8,43);
     position: absolute;
     top: 0;
     left: 174px;
@@ -473,6 +473,34 @@ ul li i{
 .position img{
     width: 60%;
     filter: invert(1);
+}
+
+.box_banner1 img{
+    vertical-align: -100px;
+    margin-left: 2em;
+}
+
+.asu img{
     vertical-align: -120px;
-    padding-left: ;
+    margin-left: 3em;
+}
+
+.uff img{
+    vertical-align: -80px;
+    margin-left: 2em;
+}
+
+.heart img{
+    vertical-align: -90px;
+    margin-left: 2.5em;
+}
+
+.topps img{
+    vertical-align: -90px;
+    margin-left: 2.5em;
+}
+
+.clear img{
+    vertical-align: -110px;
+    margin-left: 3em;
 }
