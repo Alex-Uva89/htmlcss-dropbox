@@ -1,5 +1,5 @@
 /*REGOLE GENERICHE*/
-
+ /* ho lasciato gli errori come commenti, in modo da poter ricordare i ragionamenti effettuati per gli errori fatti */
 
 * {
     margin: 0;
@@ -289,7 +289,6 @@ span.check:hover{
 }
 
 
-
 .hd_card span{
     font-size: 0.8em;
 }
@@ -509,6 +508,22 @@ ul li i{
     filter: invert(1);
 }
 
+.pb100 .ml20 a{
+    text-decoration: underline;
+}
+
+.pb100 .ml20 a:hover{
+    text-decoration: none;
+}
+
+.box_btn a{
+    text-decoration: none;
+}
+
+.box_btn a:hover{
+    text-decoration: underline;
+}
+
 /*.box_banner1 img{
     width: 60%;
     vertical-align: -100px;
@@ -559,6 +574,7 @@ ul li i{
     border-top: 1px solid rgb(0,0,0);
     position: relative;
 }
+
 .faq:hover .risposte, 
 .faq:hover i.fa-chevron-down{
     display: block;
