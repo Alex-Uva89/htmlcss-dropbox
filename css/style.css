@@ -41,7 +41,7 @@ body{
 nav{
     background-color: white;
     width: 1000px;
-    height: 50px;
+    height: 44px;
     position: fixed;
     top: 0;
     left: 0;
@@ -69,17 +69,22 @@ a{
 }
 
 nav a{
-    color: rgb(0,0,0);
+    color: rgb(0,0,0);  
 }
 
 nav ul li a:hover{
-    padding-bottom: 0.9em;
-    border-bottom: 1px solid rgb(0,0,0);
+    border-bottom: 1px solid black;
 }
 
 li{
     display: inline-block;
-    padding: 0.5em 0.5em;
+}
+
+ul a{
+    padding: 10px 0px;
+    margin: 0 10px;
+    vertical-align: 44px;
+    line-height: 44px;
 }
 
 .mb20{
@@ -217,6 +222,10 @@ p{
     height: 15px;
     border: .5px solid rgb(0,0,0);
     border-radius: 100%;
+}
+
+span.check:hover{
+    border: 5px solid blue;
 }
 
 #section2 h2{
