@@ -557,15 +557,22 @@ ul li i{
 .faq{
     padding: 20px 0;
     border-top: 1px solid rgb(0,0,0);
+    position: relative;
+}
+.faq:hover .risposte, 
+.faq:hover i.fa-chevron-down{
+    display: block;
 }
 
-.risposte{
+.faq:hover i.fa-chevron-up{
     display: none;
 }
 
-.faq:hover .risposte{
-    display: block;
+.risposte,
+.fa-chevron-down{
+    display: none;
 }
+
 
 .faq a {
     color: rgb(0,0,0);
@@ -617,4 +624,10 @@ footer ul li:hover{
 
 .container_footer span{
     padding: 30px 10px;
+}
+
+.change{
+    position: absolute;
+    top: 15px;
+    right: 0;
 }
