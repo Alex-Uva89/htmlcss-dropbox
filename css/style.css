@@ -455,18 +455,19 @@ ul li i{
 
 
 .box_float{
-    width: 30%;
+    width: 30vw;
 }
 
 .box_banner1{
-    width: 10vw;
-    height: 10vw;
+    width: 15vw;
+    height: 15vw;
+    position: relative;
 }
 
-/*
+
 .box_banner2{
-    width: 40%;
-    height: 348px;
+    width: calc(100% - 60vw);
+    height: 30vw;
     background-color: rgb(245,245,245);
 }
 
@@ -483,8 +484,12 @@ ul li i{
 
 .box_banner1 img{
     width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
     filter: invert(1);
-}*/
+}
 
 /*.box_banner1 img{
     width: 60%;
@@ -518,7 +523,7 @@ ul li i{
 }*/
 
 .scroolbar{
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .box_scroolbar{
