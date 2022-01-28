@@ -1,6 +1,6 @@
 /*REGOLE GENERICHE*/
  /* ho lasciato gli errori come commenti, in modo da poter ricordare i ragionamenti effettuati per gli errori fatti */
-
+/* ho provato ad elaborare il menù atendina nel nav come le domande e risposte, ma averlo all'interno di una lista mi ha inasprito il processo */
 * {
     margin: 0;
     padding: 0;
@@ -38,18 +38,8 @@ html{
     margin: 0 auto;
 }
 
-
-nav{
-    background-color: white;
+.contain{
     width: 100%;
-    height: 44px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right:0;
-    overflow: hidden;
-    z-index: 9999;
-    border-bottom: 0.1px solid rgba(0,0,0,0.1);
 }
 
 .fl{
@@ -60,23 +50,10 @@ nav{
     float: right;
 }
 
-nav ul{
-    list-style: none;
-    /*margin: 0 30px;*/
-    line-height: 2em;
-}
-
 a{
     text-decoration: none;
 }
 
-nav a{
-    color: rgb(0,0,0);  
-}
-
-nav ul li a:hover{
-    border-bottom: 1px solid black;
-}
 
 li{
     display: inline-block;
@@ -122,28 +99,6 @@ ul a{
     margin: 10px auto;
     
 }
- 
-
-/*CLASSI SPECIFICHE*/
-
-.logo{
-    display: inline-block;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 5px;
-}
-
-.start{
-    height: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 5px;
-}
-
-button a:hover{
-    border: 0px;
-}
-
 
 button a{
     color: rgb(255,255,255);
@@ -167,20 +122,6 @@ button{
     line-height: 10px;
 }
 
-.center{
-    max-width: 900px;
-    margin: 45px auto 0;
-}
-
-.hd{
-    max-width: 100% ;
-    height: 500px;
-    background-color: rgb(180,208,231);
-    padding-top: 50px;
-}
-
-
-
 h1{
     font-size: 2.5em;
     margin-bottom: 20px;
@@ -196,10 +137,82 @@ h1{
     float: left;
 }
 
-
 p{
     font-size: .8em;
     margin-bottom: 10px;
+}
+
+/*/////CLASSI SPECIFICHE\\\\\\\*/
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 44px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    /* overflow: hidden; */
+    z-index: 9999;
+    border-bottom: 0.1px solid rgba(0,0,0,0.1);
+}
+
+nav ul{
+    /* list-style: none; */
+    /*margin: 0 30px;*/
+    line-height: 2em;
+}
+
+nav a{
+    color: rgb(0,0,0);  
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+.submenu{
+    display: none;
+}
+
+.menu:hover .submenu{
+    background-color: rgb(255,255,255);
+    display: block;
+}
+
+.logo{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.start{
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.start a{
+    color: rgb(255,255,255);
+}
+
+button a:hover{
+    border: 0px;
+}
+
+.center{
+    max-width: 900px;
+    margin: 45px auto 0;
+}
+
+.hd{
+    max-width: 100% ;
+    height: 500px;
+    background-color: rgb(180,208,231);
+    padding-top: 50px;
 }
 
 .container_1 .img{
@@ -268,7 +281,6 @@ span.check:hover{
     float: left;
 }
 
-
 .card:nth-child(3){
     margin: 0 10px;
 }
@@ -287,7 +299,6 @@ span.check:hover{
     margin-top: 50px;
     font-size: 0.8em;
 }
-
 
 .hd_card span{
     font-size: 0.8em;
@@ -343,12 +354,12 @@ ul li i{
     margin-right: 10px;
 }
 
-
 .box_list_card ul li span{
     max-width: 200px;
     font-size: 0.7em;
     float: left;
 }
+
 .last_card{
     width: 100%;
     margin: 20px auto;
@@ -377,15 +388,9 @@ ul li i{
 }
 
 
-.contain{
-    width: 100%;
-}
-
 .white{
     background-color: rgb(255,255,255);
 }
-
-/* SEZIONE 4*/
 
 .hd_card_sec4{
     width: 100%;
