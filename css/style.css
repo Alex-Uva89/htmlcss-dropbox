@@ -142,6 +142,18 @@ p{
     margin-bottom: 10px;
 }
 
+.box60{
+    width: 60%;
+    margin: 30px 20px;
+}
+
+.box30_m {
+    width: 30%;
+    margin: 30px 15px;
+}
+
+
+
 /*/////CLASSI SPECIFICHE\\\\\\\*/
 
 nav{
@@ -169,16 +181,6 @@ nav a{
 
 nav ul li a:hover{
     border-bottom: 1px solid black;
-}
-
-
-.submenu{
-    display: none;
-}
-
-.menu:hover .submenu{
-    background-color: rgb(255,255,255);
-    display: block;
 }
 
 .logo{
@@ -304,10 +306,38 @@ span.check:hover{
     font-size: 0.8em;
 }
 
+.submanu{
+    display: none;
+}
+
+.top_menu{
+    margin-bottom: 120px;
+}
+
+.menu:hover .submanu,
+.menu:hover .top_menu{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu:hover .top_menu{
+    padding-left: 13px;
+}
+
+.menu:hover .submanu{
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(0,0,0);
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+
 /*.hd_card .fa-user,{
     width: 5%;
 }*/
 
+/*avrei dovuto utilizzare un selettore specifico in modo da non contagiare anche altri elementi dei prossimi 3 tag*/
 h3,
 h4{
     padding-bottom: 10px;
@@ -367,15 +397,6 @@ ul li i{
     float: left;
 }
 
-.box60{
-    width: 60%;
-    margin: 30px 20px;
-}
-
-.box30_m {
-    width: 30%;
-    margin: 30px 15px;
-}
 .pt50 a{
     color: rgb(0,0,0);
     font-size: 0.8em;
