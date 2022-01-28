@@ -627,7 +627,7 @@ ul li i{
 }
 
 .container_footer{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 30px 0;
     color: rgb(245,245,245);
